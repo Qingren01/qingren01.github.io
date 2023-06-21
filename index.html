@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>.</title>
+    <style>
+        #hitokoto {
+            text-align: center;
+            font-weight: normal;
+        }
+    </style>
     <script>
         window.onload = function() {
             var xhr = new XMLHttpRequest();
@@ -17,12 +23,13 @@
             xhr.send();
         };
     </script>
-  </head>
-  <body>
-    <div style="display: flex; justify-content: center;"><img src="https://p3.ssl.qhimg.com/t01a2da9f507b45bc1b.gif" alt="" style="width: 50%;"></div>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <img src="https://p3.ssl.qhimg.com/t01a2da9f507b45bc1b.gif" alt="" style="width: 50%;">
+    </div>
     <h1 style="font-weight: bold; text-align: center;">GO HOME...</h1>
-    <h1 id="hitokoto"><center><b></b></center></h1>
-      </script>
+    <h1 id="hitokoto"></h1>
     <script src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1687367032595_hf_0" charset="utf-8" type="text/javascript"></script>
-  </body>
+</body>
 </html>
